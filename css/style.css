@@ -48,3 +48,25 @@ justify-content: center;
     }
   }
 
+  .image-space{
+    height: 300px;
+  }
+
+h2{
+  color:white;
+}
+.info{
+  width:150px;
+  height: 30px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 200px;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  align-content: space-between;
+}
