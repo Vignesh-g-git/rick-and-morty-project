@@ -9,3 +9,14 @@ setTimeout(() => {
   document.getElementById('levitate').style.animation =
     'do-levitation 1.2s alternate ease-in-out infinite';
 }, 5000);
+
+// Preloader
+$(window).on('load', function () {
+  if ($('#preloader').length) {
+    $('#preloader')
+      .delay(100)
+      .fadeOut('slow', function () {
+        $(this).remove();
+      });
+  }
+});

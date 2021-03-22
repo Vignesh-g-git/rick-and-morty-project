@@ -8,3 +8,23 @@ font-family: 'quiz', sans-serif;
 font-size: 40px;
 color: #FFFFFF;
 }
+
+#uname::placeholder{
+    font-family: 'quiz', sans-serif;
+}
+input[type="text"]
+{
+    font-family: 'quiz', sans-serif;
+}
+
+.slideUpBtn{
+    font-family: 'quiz', sans-serif;
+}
+
+.credits{
+    font-family: 'quiz', sans-serif;
+}
+
+.main-space-ele6{
+    font-family: 'quiz', sans-serif;
+}
