@@ -56,17 +56,36 @@ h2{
   color:white;
 }
 .info{
-  width:150px;
-  height: 30px;
+  width:200px;
+  height: 50px;
 }
 
 .flex-container{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
   height: 200px;
   flex-wrap: wrap;
   align-items: center;
-  
   align-content: space-between;
+}
+
+.subcontainer1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subcontainer2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-container  div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
