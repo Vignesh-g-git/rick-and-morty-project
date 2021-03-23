@@ -69,7 +69,10 @@ const enter = document.getElementById('spaceship');
 enter.addEventListener('click', function click(evt) {
   const name1 = document.getElementById('uname').value;
   if (name1 == '') {
-    alert('Please provide a name');
+    Swal.fire({
+      icon: 'error',
+      title: 'Please Enter Your Name 👇',
+    });
   } else {
     sessionStorage.setItem('name', name1);
     if (selected == 1) {
@@ -98,7 +101,10 @@ name2.addEventListener('keyup', function (event) {
     event.preventDefault();
     const name1 = document.getElementById('uname').value;
     if (name1 == '') {
-      alert('Please provide a name');
+      Swal.fire({
+        icon: 'error',
+        title: 'Please Enter Your Name 👇',
+      });
     } else {
       sessionStorage.setItem('name', name1);
       if (selected == 1) {
