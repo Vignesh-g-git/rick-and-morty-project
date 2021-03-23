@@ -52,6 +52,7 @@ justify-content: center;
   .main-space-ele3{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     }
     
 
@@ -67,12 +68,15 @@ justify-content: center;
   .main-space-ele4{
     display: flex;
     justify-content:center;
-    }
+  flex-wrap: wrap;  
+  }
  
+  
+
     .slideUpBtn {
       padding: 12px 40px;
       margin: 20px;
-      background-color: white;
+      background-color: rgb(255, 255, 255);
       border: 5px solid hsl(0, 0%, 0%);
       position: relative;
       overflow: hidden;
@@ -82,7 +86,7 @@ justify-content: center;
   .slideUpBtn span {
       display: inline-block;
       transition: inherit;
-      color: hsl(0, 0%, 0%);
+      color: hsl(0, 0%, 100%);
   }
   
   .slideUpBtn:hover span {
@@ -161,6 +165,21 @@ justify-content: center;
       transform: translateY(0);
   }
 
+  .slideUpBtn1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  .slideUpBtn2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  .slideUpBtn3{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
   #spaceship{
     margin-left: 20px;
     cursor: pointer;
@@ -169,6 +188,7 @@ justify-content: center;
   .main-space-ele5{
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     }
   .credits{
     margin-left:-40px;
@@ -185,6 +205,7 @@ justify-content: center;
   .main-space-ele6{
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
   }
 
   .main-space-ele6 a{
@@ -199,6 +220,9 @@ justify-content: center;
     color: blue;
 transition:all 0.5s ease-in-out;
   }
+
+
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -250,3 +274,86 @@ transition:all 0.5s ease-in-out;
   display: flex;
   justify-content:center;
   }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+   
+   #levitate{
+     width: 87%;
+   }
+
+   /* #spaceship{
+     visibility: hidden;   
+   } */
+
+   #uname{
+    padding: 5px 0px;
+    margin: 10px;
+   }  
+
+   input[type="text"]
+{
+text-align: center;
+}
+
+.main-space-ele5{
+visibility: hidden;
+}
+
+.main-space-ele6 a{
+  text-align: center;
+}
+
+    }
+
+  @media only screen and (min-device-width : 767px) and (max-device-width : 1025px) {
+      #levitate{
+        width: 72%;
+      }
+
+      .main-space-ele5{
+        visibility: hidden;
+        }
+        
+      .main-space-ele6 a{
+        text-align: center;
+        font-size: 30px;
+      }
+
+ 
+
+  input[type="text"] {
+    font-size: 30px;
+}
+
+#spaceship {
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 85px;
+}
+
+.slideUpBtn{
+  font-size: 25px;
+  padding: 12px 50px;
+}
+
+      }   
+
+
+@media only screen and (min-device-width : 540px) and (max-device-width : 720px) {      
+
+  #levitate{
+    width: 70%;
+  }
+
+  .main-space-ele5{
+    visibility: hidden;
+    }
+    
+  .main-space-ele6 a{
+    text-align: center;
+  }
+
+}
+

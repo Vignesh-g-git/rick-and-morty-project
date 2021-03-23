@@ -28,3 +28,12 @@ input[type="text"]
 .main-space-ele6{
     font-family: 'quiz', sans-serif;
 }
+
+
+@media only screen and (min-device-width : 767px) and (max-device-width : 1025px) {
+
+    .main-space-ele2{
+        font-size: 60px;
+    }
+
+}
