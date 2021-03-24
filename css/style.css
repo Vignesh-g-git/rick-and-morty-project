@@ -48,8 +48,10 @@ justify-content: center;
     }
   }
 
-  .image-space{
+  #image-space{
     height: 300px;
+    width:300px;
+    margin:auto;
   }
 
 h2{
