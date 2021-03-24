@@ -2,6 +2,10 @@
     font-family: quiz;
     src: url("trivial/Trivial-Bold.otf") format("opentype");
 }
+@font-face {
+    font-family: quiz-question;
+    src: url("trivial/Trivial-Regular.otf") format("opentype");
+}
 .main-space-ele2{
     margin-top: -30px;
 font-family: 'quiz', sans-serif;
@@ -29,6 +33,17 @@ input[type="text"]
     font-family: 'quiz', sans-serif;
 }
 
+.question-style{
+    font-family: 'quiz-question', sans-serif;
+}
+
+.index2-sub-space3-1{
+    font-family: 'quiz-question', sans-serif;
+}
+
+.ans-op{
+    font-family: 'quiz', sans-serif;
+}
 
 @media only screen and (min-device-width : 767px) and (max-device-width : 1025px) {
 

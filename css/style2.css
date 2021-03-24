@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+.index2-main-space{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: #191919;
+}
+
+.index2-sub-space1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.index2-sub-space1-1{
+    display: flex;
+    justify-content: center;
+}
+
+.question-style{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+
+.index2-sub-space2{
+    display: flex;
+    justify-content: center;
+}
+
+.index2-sub-space2-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.index2-sub-space3{
+    display: flex;
+    justify-content: center;
+}
+
+.index2-sub-space3-1{
+    display: flex;
+    justify-content: center;
+    color:grey;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.index2-sub-space4{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 2%;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+}
+
+.index2-sub-space4-1{
+    display: flex;
+    justify-content:center;
+    margin: 2%;
+}
+
+.index2-sub-space4-2{
+    display: flex;
+    justify-content:center;
+    margin: 2%;
+}
+
+
+
+.index2-sub-space5{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 2%;
+    margin-top: 0px;
+    flex-wrap: wrap;
+}
+
+.index2-sub-space5-1{
+    display: flex;
+    justify-content:center;
+    margin: 2%;
+}
+
+.index2-sub-space5-2{
+    display: flex;
+    justify-content:center;
+    margin: 2%;
+}
+
+.ans-op{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.ans-op:hover{
+    background-color: black;
+    color: white;
+  
+}
+
+.index2-sub-space6{
+    display: flex;
+    justify-content: flex-end;
+}
+.index2-sub-space6-1{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}

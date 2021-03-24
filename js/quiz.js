@@ -1,5 +1,5 @@
 function fun(min, max) {
-  c = Math.floor(Math.random() * (max - min)) + min;
+  const c = Math.floor(Math.random() * (max - min)) + min;
   return c;
 }
 const a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -9,3 +9,4 @@ while (a.length > 0) {
   b.push(a[c]);
   a.splice(c, 1);
 }
+console.log(b);
