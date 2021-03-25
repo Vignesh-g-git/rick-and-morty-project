@@ -80,6 +80,7 @@ enter.addEventListener('click', function click(evt) {
       console.log(sessionStorage.getItem('name'));
       console.log(sessionStorage.getItem('level'));
     }
+    window.location = 'index2.html';
   }
 });
 
@@ -112,6 +113,10 @@ name2.addEventListener('keyup', function (event) {
         console.log(sessionStorage.getItem('name'));
         console.log(sessionStorage.getItem('level'));
       }
+      window.location = 'index2.html';
     }
   }
 });
+
+const timerdata = document.getElementById('root').value;
+console.log(timerdata);
